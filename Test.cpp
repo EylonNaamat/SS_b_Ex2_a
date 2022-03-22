@@ -70,4 +70,9 @@ TEST_CASE("Bad input"){
 
     CHECK_THROWS(book.read(9,0,101, ariel::Direction::Horizontal, 5));
 
+    CHECK_THROWS(book.write(-1,0,0,ariel::Direction::Horizontal,"cpp"));
+    CHECK_THROWS(book.write(1,-1,0,ariel::Direction::Horizontal,"cpp"));
+    CHECK_THROWS(book.write(1,0,-1,ariel::Direction::Horizontal,"cpp"));
+    CHECK_THROWS(book.read(1,0,0,ariel::Direction::Horizontal,-1));
+
 }

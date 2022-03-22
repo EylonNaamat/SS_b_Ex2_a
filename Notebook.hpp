@@ -12,9 +12,9 @@ namespace ariel{
             // std::vector<std::vector<std::vector<char>>> book;
 
         public:
-            void write(uint page, uint row, uint column, ariel::Direction direction, const std::string& text);
-            static std::string read(uint page, uint row, uint column, ariel::Direction direction, uint length);
-            void erase(uint page, uint row, uint column, ariel::Direction direction, uint length);
-            void show(uint page);
+            void write(int page, int row, int column, ariel::Direction direction, const std::string& text);
+            static std::string read(int page, int row, int column, ariel::Direction direction, int length);
+            void erase(int page, int row, int column, ariel::Direction direction, int length);
+            void show(int page);
     };
 }
