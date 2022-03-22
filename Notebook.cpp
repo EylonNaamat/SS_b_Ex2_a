@@ -5,7 +5,7 @@
 #include "Direction.hpp"
 
 
-void ariel::Notebook::write(uint page, uint row, uint column, ariel::Direction direction, std::string text){
+void ariel::Notebook::write(uint page, uint row, uint column, ariel::Direction direction, const std::string& text){
 }
 std::string ariel::Notebook::read(uint page, uint row, uint column, ariel::Direction direction, uint length){
     return "";
