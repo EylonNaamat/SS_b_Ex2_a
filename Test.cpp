@@ -3,7 +3,6 @@
 #include "Direction.hpp"
 
 #include <string>
-#include <algorithm>
 using namespace std;
 
 

@@ -1,6 +1,5 @@
 #include <vector>
 #include <string>
-#include <stdexcept>
 #include "Direction.hpp"
 
 namespace ariel{

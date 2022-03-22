@@ -1,6 +1,4 @@
-#include <vector>
 #include <string>
-#include <stdexcept>
 #include "Notebook.hpp"
 #include "Direction.hpp"
 
